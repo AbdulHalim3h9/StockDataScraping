@@ -22,11 +22,3 @@ This application runs as a background worker service, continuously scraping DSE 
 * **Worker Service:**  Hosts the background data scraping process.
 * **Logging Framework:**  A logging framework like Serilog or NLog can be used for detailed logging. (Highly recommended).
 * **Dependency Injection:**  Dependency injection should be used for managing dependencies. (Highly recommended).
-
-## Getting Started
-
-### Prerequisites
-
-* **.NET SDK:**  Make sure you have the .NET SDK installed on your system.
-* **SQL Server:**  You will need a SQL Server instance to store the data.
-* **(Optional) Visual Studio:**  If you're using Visual Studio, ensure you have the necessary workloads installed.
