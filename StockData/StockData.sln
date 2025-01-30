@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockData.Worker", "StockData.Worker\StockData.Worker.csproj", "{367A6EAC-AF00-4708-902C-F69D22604F20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockData.Infrastructure", "StockData.Infrastructure\StockData.Infrastructure.csproj", "{B5F00CFB-22F3-4FDD-8CC4-668945C1B55F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{367A6EAC-AF00-4708-902C-F69D22604F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367A6EAC-AF00-4708-902C-F69D22604F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367A6EAC-AF00-4708-902C-F69D22604F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367A6EAC-AF00-4708-902C-F69D22604F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F00CFB-22F3-4FDD-8CC4-668945C1B55F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F00CFB-22F3-4FDD-8CC4-668945C1B55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F00CFB-22F3-4FDD-8CC4-668945C1B55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F00CFB-22F3-4FDD-8CC4-668945C1B55F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B0924FE-717E-4B18-949E-4E3B8B68AC8D}
+	EndGlobalSection
+EndGlobal

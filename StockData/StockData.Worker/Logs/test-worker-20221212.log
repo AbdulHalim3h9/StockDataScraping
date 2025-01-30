@@ -1,0 +1,1042 @@
+2022-12-12 11:34:07.598 +06:00 [INF] Application Starting up
+2022-12-12 11:51:04.402 +06:00 [INF] Application Starting up
+2022-12-12 11:51:06.032 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 11:51:24.518 +06:00 [INF] Application Starting up
+2022-12-12 11:51:26.600 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 11:51:58.299 +06:00 [INF] Application Starting up
+2022-12-12 11:51:59.872 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 11:52:21.677 +06:00 [INF] Application Starting up
+2022-12-12 11:52:23.089 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 11:54:40.366 +06:00 [INF] Application Starting up
+2022-12-12 11:54:42.206 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 11:55:47.276 +06:00 [INF] Application Starting up
+2022-12-12 11:55:48.151 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 11:55:56.433 +06:00 [INF] Application Starting up
+2022-12-12 11:55:57.351 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 12:03:05.676 +06:00 [INF] Application Starting up
+2022-12-12 12:03:06.706 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 12:03:29.916 +06:00 [INF] Application Starting up
+2022-12-12 12:04:29.808 +06:00 [INF] Application Starting up
+2022-12-12 12:04:31.391 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 12:04:42.775 +06:00 [INF] Application Starting up
+2022-12-12 12:04:44.236 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 12:06:34.001 +06:00 [INF] Application Starting up
+2022-12-12 12:06:35.218 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 12:12:12.315 +06:00 [INF] Application Starting up
+2022-12-12 12:15:38.697 +06:00 [INF] Application Starting up
+2022-12-12 12:15:40.127 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 12:16:01.065 +06:00 [INF] Application Starting up
+2022-12-12 12:22:02.034 +06:00 [INF] Application Starting up
+2022-12-12 12:22:02.923 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 12:22:52.253 +06:00 [INF] Application Starting up
+2022-12-12 12:22:53.191 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 12:24:11.861 +06:00 [INF] Application Starting up
+2022-12-12 12:24:12.566 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 12:29:29.764 +06:00 [INF] Application Starting up
+2022-12-12 12:40:52.816 +06:00 [INF] Application Starting up
+2022-12-12 12:40:54.444 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 12:41:53.982 +06:00 [INF] Application Starting up
+2022-12-12 12:41:55.601 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService -> StockData.Infrastructure.UnitOfWorks.StockUnitOfWork.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 2 on type 'StockData.Infrastructure.UnitOfWorks.StockUnitOfWork'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 12:43:22.077 +06:00 [INF] Application Starting up
+2022-12-12 12:52:17.937 +06:00 [INF] Application Starting up
+2022-12-12 12:52:52.446 +06:00 [INF] Application Starting up
+2022-12-12 14:00:53.999 +06:00 [INF] Application Starting up
+2022-12-12 14:03:36.171 +06:00 [INF] Application Starting up
+2022-12-12 14:04:33.063 +06:00 [INF] Application Starting up
+2022-12-12 14:08:20.417 +06:00 [INF] Application Starting up
+2022-12-12 14:08:21.230 +06:00 [FTL] Application start-up failed
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Microsoft.Extensions.Hosting.IHostedService[] -> StockData.Worker.Worker -> StockData.Infrastructure.Services.StockService.
+ ---> Autofac.Core.DependencyResolutionException: Cannot choose between multiple constructors with equal length 1 on type 'StockData.Infrastructure.Services.StockService'. Select the constructor explicitly, with the UsingConstructor() configuration method, when the component is registered.
+   at Autofac.Core.Activators.Reflection.MostParametersConstructorSelector.SelectConstructorBinding(BoundConstructor[] constructorBindings, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 14:08:52.038 +06:00 [INF] Application Starting up
+2022-12-12 14:18:07.693 +06:00 [INF] Application Starting up
+2022-12-12 14:25:01.871 +06:00 [INF] Application Starting up
+2022-12-12 14:25:39.443 +06:00 [INF] Application Starting up
+2022-12-12 14:26:19.801 +06:00 [INF] Application Starting up
+2022-12-12 14:27:00.772 +06:00 [INF] Application Starting up
+2022-12-12 14:28:01.409 +06:00 [INF] Application Starting up
+2022-12-12 14:28:35.336 +06:00 [INF] Application Starting up
+2022-12-12 14:30:26.823 +06:00 [INF] Application Starting up
+2022-12-12 14:30:58.322 +06:00 [INF] Application Starting up
+2022-12-12 14:44:28.492 +06:00 [INF] Application Starting up
+2022-12-12 14:46:25.411 +06:00 [INF] Application Starting up
+2022-12-12 14:46:35.674 +06:00 [FTL] Application start-up failed
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Operand type clash: uniqueidentifier is incompatible with int
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:637bf2cf-6fd9-4980-909e-1364caf6a8da
+Error Number:206,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at StockData.Infrastructure.UnitOfWorks.UnitOfWork.Save() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\UnitOfWorks\UnitOfWork.cs:line 17
+   at StockData.Infrastructure.Services.StockService.CreateCompany(Company company) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\Services\StockService.cs:line 27
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 28
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 14:46:48.166 +06:00 [INF] Application Starting up
+2022-12-12 15:09:51.375 +06:00 [INF] Application Starting up
+2022-12-12 15:09:55.222 +06:00 [FTL] Application start-up failed
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Operand type clash: uniqueidentifier is incompatible with int
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:cc816e04-8e22-44a0-8306-49a9feb8f912
+Error Number:206,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at StockData.Infrastructure.UnitOfWorks.UnitOfWork.Save() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\UnitOfWorks\UnitOfWork.cs:line 17
+   at StockData.Infrastructure.Services.StockService.CreateCompany(Company company) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\Services\StockService.cs:line 27
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 30
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 15:11:05.430 +06:00 [INF] Application Starting up
+2022-12-12 15:11:19.903 +06:00 [FTL] Application start-up failed
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Operand type clash: uniqueidentifier is incompatible with int
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:73afdc3a-3df3-48c4-88ff-cda525285524
+Error Number:206,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at StockData.Infrastructure.UnitOfWorks.UnitOfWork.Save() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\UnitOfWorks\UnitOfWork.cs:line 17
+   at StockData.Infrastructure.Services.StockService.CreateCompany(Company company) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\Services\StockService.cs:line 27
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 30
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 48
+2022-12-12 15:11:30.305 +06:00 [INF] Application Starting up
+2022-12-12 15:11:59.826 +06:00 [INF] Application Starting up
+2022-12-12 15:12:30.123 +06:00 [FTL] Application start-up failed
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 30
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 48
+2022-12-12 15:12:32.447 +06:00 [INF] Application Starting up
+2022-12-12 15:19:04.134 +06:00 [INF] Application Starting up
+2022-12-12 15:19:04.672 +06:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 29
+2022-12-12 15:22:00.323 +06:00 [INF] Application Starting up
+2022-12-12 15:22:00.872 +06:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 30
+2022-12-12 15:22:59.468 +06:00 [INF] Application Starting up
+2022-12-12 15:22:59.881 +06:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 30
+2022-12-12 15:23:59.339 +06:00 [INF] Application Starting up
+2022-12-12 15:24:10.786 +06:00 [FTL] Application start-up failed
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 42
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 15:24:26.123 +06:00 [INF] Application Starting up
+2022-12-12 15:24:33.310 +06:00 [FTL] Application start-up failed
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 42
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 15:25:01.733 +06:00 [INF] Application Starting up
+2022-12-12 15:25:22.134 +06:00 [FTL] Application start-up failed
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 42
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 15:25:36.540 +06:00 [INF] Application Starting up
+2022-12-12 15:27:16.947 +06:00 [INF] Application Starting up
+2022-12-12 20:56:57.711 +06:00 [INF] Application Starting up
+2022-12-12 20:57:39.282 +06:00 [FTL] Application start-up failed
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 42
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 20:57:52.723 +06:00 [INF] Application Starting up
+2022-12-12 21:03:59.895 +06:00 [INF] Application Starting up
+2022-12-12 21:04:00.119 +06:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 30
+2022-12-12 21:04:55.585 +06:00 [INF] Application Starting up
+2022-12-12 21:04:55.749 +06:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 30
+2022-12-12 21:08:16.181 +06:00 [INF] Application Starting up
+2022-12-12 21:08:16.352 +06:00 [FTL] Application start-up failed
+Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException: Exception of type 'Microsoft.Extensions.Hosting.HostFactoryResolver+HostingListener+StopTheHostException' was thrown.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 30
+2022-12-12 21:36:36.663 +06:00 [INF] Application Starting up
+2022-12-12 21:46:29.036 +06:00 [INF] Application Starting up
+2022-12-12 21:46:37.925 +06:00 [FTL] Application start-up failed
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 43
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 21:46:52.929 +06:00 [INF] Application Starting up
+2022-12-12 21:47:21.832 +06:00 [INF] Application Starting up
+2022-12-12 21:47:26.220 +06:00 [FTL] Application start-up failed
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 43
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 21:47:34.782 +06:00 [INF] Application Starting up
+2022-12-12 21:49:41.663 +06:00 [INF] Application Starting up
+2022-12-12 21:50:21.589 +06:00 [FTL] Application start-up failed
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 43
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 21:50:50.392 +06:00 [INF] Application Starting up
+2022-12-12 21:53:07.420 +06:00 [INF] Application Starting up
+2022-12-12 21:53:11.035 +06:00 [FTL] Application start-up failed
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 43
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 21:56:37.257 +06:00 [INF] Application Starting up
+2022-12-12 21:56:40.846 +06:00 [FTL] Application start-up failed
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 43
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 21:56:51.737 +06:00 [INF] Application Starting up
+2022-12-12 21:58:36.122 +06:00 [INF] Application Starting up
+2022-12-12 21:59:35.456 +06:00 [INF] Application Starting up
+2022-12-12 22:06:10.941 +06:00 [INF] Application Starting up
+2022-12-12 22:07:24.748 +06:00 [INF] Application Starting up
+2022-12-12 22:08:33.483 +06:00 [INF] Application Starting up
+2022-12-12 22:09:51.122 +06:00 [INF] Application Starting up
+2022-12-12 22:11:30.156 +06:00 [INF] Application Starting up
+2022-12-12 22:12:53.803 +06:00 [INF] Application Starting up
+2022-12-12 22:13:33.950 +06:00 [INF] Application Starting up
+2022-12-12 22:15:08.950 +06:00 [INF] Application Starting up
+2022-12-12 22:16:46.633 +06:00 [INF] Application Starting up
+2022-12-12 22:20:12.196 +06:00 [INF] Application Starting up
+2022-12-12 22:22:29.374 +06:00 [INF] Application Starting up
+2022-12-12 22:23:59.142 +06:00 [INF] Application Starting up
+2022-12-12 22:26:31.771 +06:00 [INF] Application Starting up
+2022-12-12 22:30:04.567 +06:00 [INF] Application Starting up
+2022-12-12 22:42:22.733 +06:00 [INF] Application Starting up
+2022-12-12 22:42:57.218 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 43
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 67
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 22:44:48.133 +06:00 [INF] Application Starting up
+2022-12-12 22:45:24.582 +06:00 [INF] Application Starting up
+2022-12-12 22:45:33.589 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 43
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 67
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 22:46:15.407 +06:00 [INF] Application Starting up
+2022-12-12 22:46:25.722 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 43
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 67
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 22:53:23.385 +06:00 [INF] Application Starting up
+2022-12-12 22:53:26.664 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 43
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 22:55:05.378 +06:00 [INF] Application Starting up
+2022-12-12 22:56:41.190 +06:00 [INF] Application Starting up
+2022-12-12 22:56:44.630 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 44
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:11:01.087 +06:00 [INF] Application Starting up
+2022-12-12 23:11:05.174 +06:00 [FTL] Application start-up failed
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_StockPrice_Companies_CompanyId". The conflict occurred in database "AspNetCoreB7", table "dbo.Companies", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a09673aa-886c-4f00-a246-e97f0d01f4cc
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at StockData.Infrastructure.UnitOfWorks.UnitOfWork.Save() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\UnitOfWorks\UnitOfWork.cs:line 17
+   at StockData.Infrastructure.Services.StockService.CreateStockPrice(StockPrice stockPrice) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\Services\StockService.cs:line 54
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 47
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:11:59.066 +06:00 [INF] Application Starting up
+2022-12-12 23:12:02.975 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 44
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:12:13.703 +06:00 [INF] Application Starting up
+2022-12-12 23:12:17.862 +06:00 [FTL] Application start-up failed
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_StockPrice_Companies_CompanyId". The conflict occurred in database "AspNetCoreB7", table "dbo.Companies", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:e0adc0f6-2f72-4404-aafb-ce0fef546632
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at StockData.Infrastructure.UnitOfWorks.UnitOfWork.Save() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\UnitOfWorks\UnitOfWork.cs:line 17
+   at StockData.Infrastructure.Services.StockService.CreateStockPrice(StockPrice stockPrice) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\Services\StockService.cs:line 54
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 47
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:12:34.161 +06:00 [INF] Application Starting up
+2022-12-12 23:12:38.323 +06:00 [FTL] Application start-up failed
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_StockPrice_Companies_CompanyId". The conflict occurred in database "AspNetCoreB7", table "dbo.Companies", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:cfedbdd4-a693-41b6-bc8e-4278d17cf40d
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at StockData.Infrastructure.UnitOfWorks.UnitOfWork.Save() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\UnitOfWorks\UnitOfWork.cs:line 17
+   at StockData.Infrastructure.Services.StockService.CreateStockPrice(StockPrice stockPrice) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\Services\StockService.cs:line 54
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 47
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:13:07.451 +06:00 [INF] Application Starting up
+2022-12-12 23:15:33.793 +06:00 [INF] Application Starting up
+2022-12-12 23:18:21.034 +06:00 [INF] Application Starting up
+2022-12-12 23:18:40.454 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 44
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:19:07.263 +06:00 [INF] Application Starting up
+2022-12-12 23:19:19.169 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 44
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:19:56.381 +06:00 [INF] Application Starting up
+2022-12-12 23:20:11.044 +06:00 [INF] Application Starting up
+2022-12-12 23:20:20.032 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 44
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:22:24.516 +06:00 [INF] Application Starting up
+2022-12-12 23:27:23.943 +06:00 [INF] Application Starting up
+2022-12-12 23:27:39.692 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 44
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 64
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:29:41.912 +06:00 [INF] Application Starting up
+2022-12-12 23:29:50.232 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 44
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 65
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:30:15.042 +06:00 [INF] Application Starting up
+2022-12-12 23:30:28.798 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 44
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 65
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:31:01.225 +06:00 [INF] Application Starting up
+2022-12-12 23:32:33.598 +06:00 [INF] Application Starting up
+2022-12-12 23:34:54.998 +06:00 [INF] Application Starting up
+2022-12-12 23:38:22.708 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 44
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 65
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:38:29.719 +06:00 [INF] Application Starting up
+2022-12-12 23:39:54.731 +06:00 [FTL] Application start-up failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToDouble(String value)
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 44
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 65
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:40:09.163 +06:00 [INF] Application Starting up
+2022-12-12 23:42:06.646 +06:00 [INF] Application Starting up
+2022-12-12 23:43:55.375 +06:00 [INF] Application Starting up
+2022-12-12 23:44:03.255 +06:00 [FTL] Application start-up failed
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'TradeCode', table 'AspNetCoreB7.dbo.Companies'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:091bbcbd-e4da-4f70-9d01-38b8c65144db
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at StockData.Infrastructure.UnitOfWorks.UnitOfWork.Save() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\UnitOfWorks\UnitOfWork.cs:line 17
+   at StockData.Infrastructure.Services.StockService.CreateCompany(Company company) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\Services\StockService.cs:line 29
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 31
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 65
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:44:13.386 +06:00 [INF] Application Starting up
+2022-12-12 23:44:55.621 +06:00 [FTL] Application start-up failed
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'TradeCode', table 'AspNetCoreB7.dbo.Companies'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:ddb97a54-9a13-47d3-92dd-3d616ad0d159
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at StockData.Infrastructure.UnitOfWorks.UnitOfWork.Save() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\UnitOfWorks\UnitOfWork.cs:line 17
+   at StockData.Infrastructure.Services.StockService.CreateCompany(Company company) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Infrastructure\Services\StockService.cs:line 29
+   at StockData.Worker.WriteData.Write() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\WriteData.cs:line 31
+   at StockData.Worker.Fetch.Get() in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Fetch.cs:line 65
+   at StockData.Worker.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Worker.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\abdul\Desktop\Assignment-5\SandBox\yusuf vaiya\StockData\StockData.Worker\Program.cs:line 49
+2022-12-12 23:45:06.373 +06:00 [INF] Application Starting up
